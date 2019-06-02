@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_test/app_state.dart';
+import 'package:provider_test/providers/app_state.dart';
 
 class TextDisplay extends StatelessWidget {
   @override

@@ -7,16 +7,16 @@ class AppState extends ChangeNotifier {
 
   AppState();
 
-  String _dislayText = "";
+  String _displayText = "";
   String _jsonResponse = "";
   bool _isFetching = false;
 
   void setDisplayText(String text) {
-    _dislayText = text;
+    _displayText = text;
     notifyListeners();
   }
 
-  String get getDisplayText => _dislayText;
+  String get getDisplayText => _displayText;
 
   bool get isFetching => _isFetching;
 
