@@ -16,4 +16,6 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-- [Link](https://medium.com/flutter-community/flutter-statemanagement-with-provider-ee251bbc5ac1)
+- [ProviderTextChange](https://medium.com/flutter-community/flutter-statemanagement-with-provider-ee251bbc5ac1)
+
+- [DynamicLink](https://developer.school/posts/flutter-dynamic-themes-with-provider/)
