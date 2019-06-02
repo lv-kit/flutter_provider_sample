@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Provider.of<ThemeState>(context);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: theme.getTheme(),
       home: ChangeNotifierProvider<AppState>(
